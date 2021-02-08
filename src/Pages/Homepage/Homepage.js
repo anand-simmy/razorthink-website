@@ -1,25 +1,12 @@
 import React from 'react'
-import CustomSelect from '../../components/CustomSelect/CustomSelect'
+import Navbar from '../../components/Layout/Navbar/Navbar'
 import Card from './components/Card/Card'
 import styles from './Homepage.module.scss'
 
 const Homepage= () => {
     return (
         <div className={styles.mainContainer}>
-            <div className={styles.navbar}>
-                <div className={styles.logo}>
-                    <img src={'./img/homepage/rzt-logo.svg'} />
-                </div>
-                <div className={styles.navLinksContainer}>
-                    <ul className={styles.navLinks}>
-                        <CustomSelect>RZT Platform</CustomSelect>
-                        <CustomSelect>Resources</CustomSelect>
-                        <CustomSelect>Industries</CustomSelect>
-                        <li>About Us</li>
-                        <li className={styles.signUpButton}>Signup</li>
-                    </ul>
-                </div>
-            </div>
+            <Navbar />
             <div className={styles.section1}>
                 <img src={'./img/homepage/hero.png'} />
                 <div className={styles.heroBannerContent}>
