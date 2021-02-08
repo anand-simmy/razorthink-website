@@ -1,0 +1,281 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+
+    button:hover,
+    select:hover {
+        cursor: pointer;
+    }
+
+    button:active,
+    select:active,
+    button:focus,
+    select:focus {
+        outline: none;
+    }
+
+}
+
+.navbar {
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+        margin-left: 50px;
+    }
+
+    .navLinksContainer {
+        margin-right: 50px;
+
+        .navLinks {
+            width: 45vw;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            list-style-type: none;
+
+            li {
+                height: 16px;
+                opacity: 0.9;
+                color: #232323;
+                font-family: 'Poppins', sans-serif;
+                font-size: 16px;
+                line-height: 16px;
+            }
+
+            .signUpButton {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 40px;
+                width: 90px;
+                border-radius: 4px;
+                background-color: #1C1C21;
+                opacity: 0.9;
+                color: white;
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+.section1.heroBanner {
+    position: relative;
+
+    img{
+        height: 643px;
+        width: 1440px;
+    }
+
+    .heroBannerContent {
+        position: absolute;
+        top: 21%;
+        left: 10%;
+    }
+
+    .heroBannerText{
+
+        span {
+            display: block;
+            color: white;
+            opacity: 0.9;
+            line-height: 90px;
+            letter-spacing: 1.5px;
+            font-weight: 600;
+        }
+
+        .heroBannerTextOne {
+            font-size: 26px;
+            color: white;
+            opacity: 0.8;
+            font-weight: 300;
+        }
+
+        .heroBannerTextTwo {
+            line-height: 60px;
+            font-size: 65px;
+            opacity: 0.9;
+        }
+
+        .heroBannerTextThree {
+            line-height: 100px;
+            font-size: 85px;
+        }
+    }
+
+    .heroBannerButtons {
+        width: 320px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+
+        button {
+            height: 60px;
+            background: linear-gradient(222.69deg, #00A1E4 0%, #0037A9 100%);
+            border-radius: 4px;
+            border: none;
+            color: white;
+            opacity: 0.9;
+            font-size: 14px;
+        }
+
+        .requestDemoButton {
+            width: 177px;
+        }
+
+        .previewButton {
+            width: 116px;
+        }
+    }
+}
+
+.section2 {
+
+    height: 90vh;
+
+    .container {
+        width: 80vw;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .infoContainer {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+
+        .sectionLink {
+            color: #0073CA;
+            font-size: 20px;
+            line-height: 24px;
+        }
+
+        .sectionMainHeader {
+            font-size: 48px;
+            line-height: 72px;
+            font-weight: 600;
+            width: 514px;
+            margin: 8px 0;
+        }
+
+        .sectionHeaderCaption {
+            font-size: 20px;
+            line-height: 32px;
+            color: #232323;
+            font-weight: 500;
+            margin: 20px 0;
+        }
+
+        .sectionInfo {
+            font-size: 18px;
+            line-height: 32px;
+            color: #0A0B0C;
+            opacity: 0.6;
+            width: 638px;
+            font-weight: 400;
+            margin: 12px 0;
+        }
+
+        .learnMoreButton {
+            height: 50px;
+            width: 139px;
+            background: linear-gradient(222.69deg, #00A1E4 0%, #0037A9 100%);
+            border-radius: 4px;
+            border: none;
+            color: white;
+            opacity: 0.9;
+            font-size: 14px;
+        }
+    }
+    .imageContainer {
+        width: 40%;
+        img {
+            width: 415px;
+            height: 469px;
+        }
+    }
+}
+
+.section3 {
+    height: 893px;
+    background: #1C1C21;
+
+    .container{
+        height: 100%;
+        width: 85vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+
+        .heading {
+            margin-top: 100px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .sectionLink {
+                color: #0073CA;
+                font-size: 20px;
+                line-height: 24px;
+            }
+
+            .sectionMainHeader {
+                font-size: 60px;
+                line-height: 70px;
+                font-weight: 700;
+                width: 1120px;
+                height: 192px;
+                margin: 15px 0;
+                color: white;
+                text-align: center;
+                letter-spacing: 1px;
+                word-spacing: 20px;
+
+                span {
+                    display: block;
+                }
+            }
+        }
+
+        .pipelineContainer {
+            margin-top: 60px;
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            justify-content: space-between;
+
+            .arrowContainer {
+                display: flex;
+                align-items: center;
+                margin: 0 15px;
+                img {
+                    height: 100px;
+                    width: 31px;
+                }
+            }
+        }
+
+        .trainButton {
+            .trainYourOwnButton {
+                height: 60px;
+                width: 181px;
+                margin-top: 60px;
+                background: linear-gradient(222.69deg, #00A1E4 0%, #0037A9 100%);
+                border-radius: 4px;
+                font-weight: 500;
+                border: none;
+                color: white;
+                line-height: 14px;
+                font-size: 18px;
+            }
+        }
+    }
+}

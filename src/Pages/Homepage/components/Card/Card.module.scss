@@ -1,0 +1,38 @@
+.cardContainer {
+    height: 277px;
+    width: 266px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 20px;
+    background: #25252b;
+    border-radius: 16px;
+    .logo {
+        margin: 15px 0;
+        img {
+            height: 36px;
+            width: 36px;
+        }
+    }
+    .heading {
+        height: 45px;
+        width: 114px;
+        color: white;
+        font-weight: 500;
+        font-size: 32px;
+        letter-spacing: 0.27px;
+        line-height: 48px;
+    }
+    .info {
+        height: 69px;
+        width: 190px;
+        opacity: 0.6;
+        margin: 16px 0;
+        color: white;
+        font-family: Poppins;
+        font-size: 16px;
+        letter-spacing: 0.13px;
+        line-height: 25px;
+    }
+}
